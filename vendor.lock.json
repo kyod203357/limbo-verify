@@ -1,0 +1,6 @@
+{
+  "package": "@limboai/verifox-sdk-verifier-wasm",
+  "version": "0.1.0-canary.80.1.8a9f9dba",
+  "integrity": "sha512-Ob2W85dyR+KIubfMy0Mw94QCXbJKo0eH1b0LAfKS6RNu+Cwr4i5a5CRZxqIUaIrkr9ITynX0NhmykHkAEGco+Q==",
+  "files": ["gen/wasm/verifox_sdk_verifier.js", "gen/wasm/verifox_sdk_verifier_bg.wasm"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "limbo-verify",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "Browser side Content Credentials badge for any image. Built and served from Cloudflare Pages.",
+  "type": "module",
+  "scripts": {
+    "vendor": "node scripts/vendor.mjs",
+    "build": "node scripts/build.mjs",
+    "build:release": "node scripts/build.mjs --release",
+    "test": "node --test \"test/*.test.mjs\"",
+    "preview": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
